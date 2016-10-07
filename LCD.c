@@ -14,12 +14,7 @@ void longdelay (void);
 void command(int instruction);
 void ready(void);
 void display(int dato);
-
-void main(void){
-    OSCCON=0x60;
-    ADCON1=0x0F;
-    CVRCONbits.CVREN=0;
-    CMCON=0x07;
+//Hola Escapi
 ///PORTA--> D0->D7
     PORTB=0x00;
     LATB=0x00;
